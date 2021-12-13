@@ -55,7 +55,6 @@ class Forma extends Component
         ]);
 
         $this->profile_photo->storeAs('public/images', $photoName);
-        session()->flash('message', 'Kontaktas išsaugotas');
 
         $this->name = "";
         $this->surname = "";
